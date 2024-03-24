@@ -11,7 +11,7 @@ const MobileMenu = ({ isActive, mobile, menuHandler, goToMint, goToArts, goToAbo
     <div className={classToRender}>
       <div className={styles.inner}>
         <div className={styles.logoWrap}>
-          <a href="https://ape-nft-iota.vercel.app/" target="_blank">
+          <a href="https://valerchixx.github.io/apenft/" target="_blank">
             <Logo />
           </a>
         </div>

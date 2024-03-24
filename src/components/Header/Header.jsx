@@ -8,7 +8,7 @@ const Header = ({ children, headerRef, goToMint, goToArts, goToAbout, goToMind, 
     <div ref={headerRef} className={styles.header}>
       <div className={styles.headerWrap}>
         <div className={styles.logoWrap}>
-          <a href="https://ape-nft-iota.vercel.app/" target="_blank">
+          <a href="https://valerchixx.github.io/apenft/" target="_blank">
             <Logo />
           </a>
         </div>
