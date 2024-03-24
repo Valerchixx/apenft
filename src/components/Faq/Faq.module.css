@@ -1,0 +1,23 @@
+.inner {
+  max-width: 260px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inner {
+    max-width: 1000px;
+  }
+}

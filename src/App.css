@@ -1,0 +1,32 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'MessinaSansMono-Black';
+  src:
+    local('MessinaSansMono-Black'),
+    url('./fonts/MessinaSansMono-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MessinaSansMono-Light';
+  src:
+    local('MessinaSansMono-Light'),
+    url('./fonts/MessinaSansMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BiroScriptPlus-Bold';
+  src:
+    local('BiroScriptPlus-Bold'),
+    url('./fonts/BiroScriptPlus-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RightGrotesk-WideMedium';
+  src:
+    local('RightGrotesk-WideMedium'),
+    url('./fonts/RightGrotesk-WideMedium.otf') format('truetype');
+}

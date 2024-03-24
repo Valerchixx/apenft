@@ -1,0 +1,8 @@
+.menuWrap button:hover svg path {
+  fill: #fff;
+}
+
+.menuWrap.white button:hover svg path {
+  fill: #0000;
+}
+

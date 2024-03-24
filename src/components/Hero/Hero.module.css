@@ -1,0 +1,80 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: 400px;
+  top: -100px;
+  z-index: 0;
+}
+.title {
+  font-family: 'RightGrotesk-WideMedium';
+  color: #1e1e1e;
+  font-size: 40px;
+  margin: 0;
+  word-spacing: normal;
+}
+
+.inner {
+  max-width: 260px;
+}
+
+.subTitle {
+  font-size: 22px;
+  line-height: 27px;
+  font-family: 'BiroScriptPlus-Bold';
+}
+.imageWrap img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .content {
+    top: -100px;
+    height: 213px;
+  }
+  .inner {
+    max-width: 800px;
+  }
+  .title {
+    font-size: 80px;
+    word-spacing: 200px;
+  }
+  .imageWrap {
+    max-width: 350px;
+    position: absolute;
+    top: -120px;
+    left: 23%;
+  }
+  .meetupsWrap {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: 0;
+    z-index: 200;
+  }
+  .meetupsWrap p {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .imageWrap {
+    left: 30%;
+  }
+}
+@media (min-width: 1280px) {
+  .inner {
+    max-width: 1000px;
+  }
+  .title {
+    font-size: 120px;
+  }
+  .imageWrap {
+    left: 38%;
+  }
+}
+

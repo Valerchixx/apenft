@@ -1,0 +1,18 @@
+.button {
+  width: 100%;
+  font-size: 16px;
+  word-spacing: 5px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-family: 'RightGrotesk-WideMedium';
+  background: #1e1e1e1a;
+
+  border: none;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+}
+

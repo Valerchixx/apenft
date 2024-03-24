@@ -1,0 +1,21 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap button {
+  display: block;
+  border-radius: 0;
+}
+
+.wrap button:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.wrap button:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+

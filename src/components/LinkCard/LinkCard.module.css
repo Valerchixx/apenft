@@ -1,0 +1,39 @@
+.cardWrap {
+  background: #dc3b5a;
+  max-width: 235px;
+  min-height: 235px;
+  padding: 25px 12px 25px 12px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.imgWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imgWrap img {
+  display: block;
+}
+
+.title {
+  width: 100%;
+}
+.title h2 {
+  font-family: 'RightGrotesk-WideMedium';
+  font-size: 32px;
+  text-align: left;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .cardWrap {
+    max-width: 300px;
+    min-height: 250px;
+  }
+}

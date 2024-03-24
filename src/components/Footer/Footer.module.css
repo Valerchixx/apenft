@@ -1,0 +1,22 @@
+.inner p {
+  text-align: center;
+  font-family: 'MessinaSansMono-Light';
+  font-size: 12px;
+  color: #fff;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.inner {
+  max-width: 260px;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    max-width: 350px;
+  }
+}

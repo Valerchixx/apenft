@@ -1,0 +1,40 @@
+.wrap {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.inner {
+  max-width: 260px;
+}
+
+h3 {
+  color: #fff;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardsWrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inner {
+    max-width: 1000px;
+  }
+}

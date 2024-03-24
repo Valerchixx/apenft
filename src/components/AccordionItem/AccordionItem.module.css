@@ -1,0 +1,89 @@
+.titleWrap h1 {
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+}
+.contentWrap p {
+  font-size: 12px;
+}
+.wrap {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.wrapper.active {
+  background-color: #1e1e1e;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.titleWrap {
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+  width: 100%;
+}
+
+.titleWrap .iconWrap {
+  margin-right: 10px;
+}
+
+.contentWrap {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.contentWrap.active {
+  height: 90px;
+}
+
+.imgWrap {
+  max-width: 180px;
+}
+
+.imgWrap img {
+  width: 100%;
+  transform: rotateZ(-10deg);
+}
+
+.titleWrap h1:hover {
+  color: #dc3b5a;
+}
+
+.titleWrap:hover svg path {
+  fill: #fff;
+}
+@media (min-width: 768px) {
+  .contentWrap p {
+    max-width: 400px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .contentWrap.active {
+    height: 100px;
+  }
+  .titleWrap h1 {
+    font-size: 32px;
+  }
+  .wrap.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contentWrap p {
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .contentWrap.active {
+    height: 120px;
+  }
+}
+

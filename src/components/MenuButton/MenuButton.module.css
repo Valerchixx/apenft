@@ -1,0 +1,13 @@
+.button {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 12px;
+  font-family: 'MessinaSansMono-Black';
+  border: none;
+  text-align: center;
+  margin-bottom: 12px;
+  display: block;
+  cursor: pointer;
+}
+
